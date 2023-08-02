@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Amita:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-amita: Amita;
+
+  /* font sizes */
+  --font-size-lg: 18px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-chocolate: #e4692e;
+
+  /* Paddings */
+  --padding-8xs: 5px;
+  --padding-3xs: 10px;
+
+  /* border radiuses */
+  --br-81xl: 100px;
+  --br-xl: 20px;
+}
