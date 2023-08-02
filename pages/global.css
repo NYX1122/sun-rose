@@ -15,8 +15,7 @@ body {
   --color-chocolate: #e4692e;
 
   /* Paddings */
-  --padding-8xs: 5px;
-  --padding-3xs: 10px;
+  --padding-5xs: 8px;
 
   /* border radiuses */
   --br-81xl: 100px;

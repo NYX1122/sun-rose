@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import styles from "./index.module.css";
-const IPhone14ProMax1Landing = () => {
+const Landing = () => {
   const onButtonClick = useCallback(() => {
     // Please sync "iPhone 14 Pro Max - 2 (About)" to the project
   }, []);
@@ -22,7 +22,7 @@ const IPhone14ProMax1Landing = () => {
   }, []);
 
   return (
-    <div className={styles.iphone14ProMax1Landing}>
+    <div className={styles.landing}>
       <header className={styles.logoTitle}>
         <img
           className={styles.newOrangeLogo1Icon}
@@ -31,26 +31,50 @@ const IPhone14ProMax1Landing = () => {
         />
         <div className={styles.sunRosePallas}>Sun Rose Pallas Healing</div>
       </header>
-      <main className={styles.about}>
+      <div className={styles.about}>
         <div className={styles.leaves}>
-          <img className={styles.leavesChild} alt="" src="/ellipse-55.svg" />
-          <img className={styles.leavesChild} alt="" src="/ellipse-56.svg" />
-          <img className={styles.leavesChild} alt="" src="/ellipse-57.svg" />
-          <img className={styles.leavesChild} alt="" src="/ellipse-59.svg" />
-          <img className={styles.leavesChild} alt="" src="/ellipse-60.svg" />
+          <img
+            className={styles.ellipse55Stroke}
+            alt=""
+            src="/ellipse-55-stroke.svg"
+          />
+          <img
+            className={styles.ellipse55Stroke}
+            alt=""
+            src="/ellipse-55-stroke1.svg"
+          />
+          <img
+            className={styles.ellipse55Stroke}
+            alt=""
+            src="/ellipse-55-stroke2.svg"
+          />
+          <img
+            className={styles.ellipse55Stroke}
+            alt=""
+            src="/ellipse-55-stroke3.svg"
+          />
+          <img
+            className={styles.ellipse55Stroke}
+            alt=""
+            src="/ellipse-55-stroke4.svg"
+          />
         </div>
-        <textarea
-          className={styles.introduction}
-          placeholder="Come relax, recharge, and regroup at Sun Rose, where your physical and spiritual needs will be cared for. Allow me to help you connect with your universal soul, so you may find joy, peace, and health in everlasting wellness."
-        />
-        <div className={styles.slideshow}>
-          <img className={styles.photoIcon} alt="" src="/photo@2x.png" />
-          <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+        <p className={styles.introduction}>
+          <div className={styles.comeRelaxRecharge}>
+            Come relax, recharge, and regroup at Sun Rose, where your physical
+            and spiritual needs will be cared for. Allow me to help you connect
+            with your universal soul, so you may find joy, peace, and health in
+            everlasting wellness.
+          </div>
+        </p>
+        <div className={styles.photo}>
+          <div className={styles.heartDesigns}>
+            <img className={styles.vectorIcon} alt="" src="/vector.svg" />
+            <img className={styles.vectorIcon} alt="" src="/vector1.svg" />
+          </div>
         </div>
         <div className={styles.menu}>
-          <img className={styles.menuChild} alt="" src="/vector-3.svg" />
-          <img className={styles.menuItem} alt="" src="/vector-4.svg" />
-          <img className={styles.sunflowerIcon} alt="" src="/sunflower.svg" />
+          <img className={styles.vectorIcon2} alt="" src="/vector2.svg" />
           <div className={styles.links}>
             <button className={styles.button} onClick={onButtonClick}>
               <div className={styles.aboutMe}>About Me</div>
@@ -68,11 +92,11 @@ const IPhone14ProMax1Landing = () => {
               <div className={styles.aboutMe}>Location</div>
             </button>
           </div>
-          <img className={styles.sunflowerIcon1} alt="" src="/sunflower.svg" />
+          <img className={styles.vectorIcon2} alt="" src="/vector3.svg" />
         </div>
-      </main>
+      </div>
     </div>
   );
 };
 
-export default IPhone14ProMax1Landing;
+export default Landing;

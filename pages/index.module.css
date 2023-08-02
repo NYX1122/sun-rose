@@ -1,7 +1,7 @@
 .newOrangeLogo1Icon {
   position: relative;
-  width: 235px;
-  height: 201.4px;
+  width: 200px;
+  height: 171.4px;
   object-fit: cover;
 }
 .sunRosePallas {
@@ -11,16 +11,16 @@
   align-self: stretch;
   display: flex;
   flex-direction: column;
-  padding: 40px 0 0;
+  padding: 20px 0 0;
   align-items: center;
   justify-content: center;
   gap: 8px;
   text-align: left;
-  font-size: 30px;
+  font-size: 25px;
   color: var(--color-chocolate);
   font-family: var(--font-amita);
 }
-.leavesChild {
+.ellipse55Stroke {
   position: relative;
   width: 43.17px;
   height: 74.88px;
@@ -32,69 +32,53 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-.introduction,
-.photoIcon {
-  border-radius: var(--br-xl);
+.comeRelaxRecharge {
+  align-self: stretch;
+  position: relative;
 }
 .introduction {
-  border: 3px solid var(--color-white);
-  background-color: rgba(0, 0, 0, 0.1);
-  font-family: var(--font-amita);
-  font-size: 14px;
+  margin: 0;
   align-self: stretch;
+  border-radius: var(--br-xl);
+  border: 3px solid var(--color-white);
   display: flex;
   flex-direction: column;
-  padding: var(--padding-8xs);
+  padding: 5px 10px;
   align-items: center;
   justify-content: center;
-}
-.photoIcon {
-  flex: 1;
-  max-width: 100%;
-  overflow: hidden;
-  max-height: 100%;
-  object-fit: cover;
-  z-index: 0;
 }
 .vectorIcon {
-  position: absolute;
-  margin: 0 !important;
-  top: -5.26px;
-  left: -27.5px;
-  width: 450px;
-  height: 203px;
-  z-index: 1;
+  position: relative;
+  width: 43px;
+  height: 98px;
 }
-.slideshow {
+.heartDesigns,
+.photo {
   align-self: stretch;
+  border-radius: var(--br-xl);
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+}
+.heartDesigns {
+  flex: 1;
+  flex-direction: row;
+  box-shadow: inset 0 0 0 3px #fff;
+}
+.photo {
+  height: 200px;
+  flex-direction: column;
+  background-image: url(/photo@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.vectorIcon2 {
+  flex: 1;
   position: relative;
-}
-.menuChild,
-.menuItem {
-  position: absolute;
-  margin: 0 !important;
-  top: 93.42px;
-  left: -27.5px;
-  width: 105.4px;
-  height: 71.42px;
-  z-index: 0;
-}
-.menuItem {
-  top: -10.88px;
-  left: 324.53px;
-  width: 101.31px;
-  height: 144.32px;
-  z-index: 1;
-}
-.sunflowerIcon {
-  position: relative;
-  width: 124.47px;
-  height: 124.47px;
-  z-index: 2;
+  max-width: 100%;
+  overflow: hidden;
+  height: 126px;
 }
 .aboutMe {
   position: relative;
@@ -102,60 +86,72 @@
   font-family: var(--font-amita);
   color: var(--color-chocolate);
   text-align: center;
-}
-.button,
-.links {
   display: flex;
   align-items: center;
+  width: 79px;
+  height: 13px;
+  flex-shrink: 0;
+}
+.aboutMe,
+.button,
+.links {
   justify-content: center;
 }
 .button {
   cursor: pointer;
   border: 0;
-  padding: var(--padding-8xs) var(--padding-3xs);
+  padding: var(--padding-5xs);
   background-color: var(--color-white);
   border-radius: var(--br-81xl);
+  display: flex;
   flex-direction: row;
+  align-items: center;
 }
 .links {
   align-self: stretch;
+  flex: 1;
   flex-direction: column;
-  gap: 5px;
-  z-index: 3;
+  gap: 7px;
 }
-.sunflowerIcon1 {
-  position: relative;
-  width: 124.47px;
-  height: 124.47px;
-  z-index: 4;
+.about,
+.landing,
+.links,
+.menu {
+  display: flex;
+  align-items: center;
 }
 .menu {
   align-self: stretch;
-  display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
-  position: relative;
   gap: 10px;
 }
 .about,
-.iphone14ProMax1Landing {
+.landing {
   overflow: hidden;
-  display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .about {
   align-self: stretch;
   flex: 1;
   background-color: var(--color-chocolate);
-  padding: 0 27.5px 18px;
-  justify-content: space-between;
+  padding: 0 27.5px 25px;
+  justify-content: flex-start;
+  gap: 25px;
 }
-.iphone14ProMax1Landing {
+.landing {
   position: relative;
   background-color: var(--color-white);
   width: 100%;
   height: 925px;
-  justify-content: flex-start;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+  color: var(--color-white);
+  font-family: var(--font-amita);
+}
+@media screen and (max-width: 420px) {
+  .landing {
+    height: auto;
+  }
 }
